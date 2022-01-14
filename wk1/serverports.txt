@@ -1,0 +1,11 @@
+Answer 1: 
+Web server ports are the logical endpoints of a network connection that is used to exchange information between a web server and a web client.
+
+Answer 2:
+Port numbers range from 0 to 65535, but only port numbers 0 to 1023 are reserved for privileged services and designated as well-known ports.
+
+Answer 3:
+Both the source and destination port numbers, each 16 bits long, are included as the first fields of the TCP or UDP segment header.
+
+Answer 4: 
+I most commonly come across ports 80, 443, 20, 21, 22, 23, 25, 119, 123 and 53. 
