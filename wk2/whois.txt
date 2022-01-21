@@ -1,0 +1,127 @@
+1. Domain Name: SPOTIFY.COM
+   Registry Domain ID: 422131614_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.domaininfo.com
+   Registrar URL: http://www.ports.domains
+   Updated Date: 2021-08-02T18:37:37Z
+   Creation Date: 2006-04-23T09:07:50Z
+   Registry Expiry Date: 2030-04-23T09:07:50Z
+   Registrar: Ports Group AB
+   Registrar IANA ID: 73
+   Registrar Abuse Contact Email: abuse@portsgroup.com
+   Registrar Abuse Contact Phone: +46707260015
+   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+   Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+   Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+   Name Server: DNS1.P07.NSONE.NET
+   Name Server: DNS2.P07.NSONE.NET
+   Name Server: DNS3.P07.NSONE.NET
+   Name Server: DNS4.P07.NSONE.NET
+   Name Server: NS-CLOUD-A1.GOOGLEDOMAINS.COM
+   Name Server: NS-CLOUD-A2.GOOGLEDOMAINS.COM
+   Name Server: NS-CLOUD-A3.GOOGLEDOMAINS.COM
+   Name Server: NS-CLOUD-A4.GOOGLEDOMAINS.COM
+   DNSSEC: unsigned
+
+2. Domain Name: GODADDY.COM
+   Registry Domain ID: 4013247_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.godaddy.com
+   Registrar URL: http://www.godaddy.com
+   Updated Date: 2021-09-30T19:45:51Z
+   Creation Date: 1999-03-02T05:00:00Z
+   Registry Expiry Date: 2023-11-01T11:59:59Z
+   Registrar: GoDaddy.com, LLC
+   Registrar IANA ID: 146
+   Registrar Abuse Contact Email: abuse@godaddy.com
+   Registrar Abuse Contact Phone: 480-624-2505
+   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+   Domain Status: clientRenewProhibited https://icann.org/epp#clientRenewProhibited
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+   Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+   Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+   Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+   Name Server: A1-245.AKAM.NET
+   Name Server: A11-64.AKAM.NET
+   Name Server: A20-65.AKAM.NET
+   Name Server: A6-66.AKAM.NET
+   Name Server: A8-67.AKAM.NET
+   Name Server: A9-67.AKAM.NET
+   Name Server: CNS1.GODADDY.COM
+   Name Server: CNS2.GODADDY.COM
+   DNSSEC: unsigned
+
+3. Domain Name: GOOGLE.COM
+   Registry Domain ID: 2138514_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.markmonitor.com
+   Registrar URL: http://www.markmonitor.com
+   Updated Date: 2019-09-09T15:39:04Z
+   Creation Date: 1997-09-15T04:00:00Z
+   Registry Expiry Date: 2028-09-14T04:00:00Z
+   Registrar: MarkMonitor Inc.
+   Registrar IANA ID: 292
+   Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
+   Registrar Abuse Contact Phone: +1.2083895740
+   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+   Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+   Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+   Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+   Name Server: NS1.GOOGLE.COM
+   Name Server: NS2.GOOGLE.COM
+   Name Server: NS3.GOOGLE.COM
+   Name Server: NS4.GOOGLE.COM
+   DNSSEC: unsigned
+
+4. Domain Name: YAHOO.COM
+   Registry Domain ID: 3643624_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.markmonitor.com
+   Registrar URL: http://www.markmonitor.com
+   Updated Date: 2021-09-28T15:37:35Z
+   Creation Date: 1995-01-18T05:00:00Z
+   Registry Expiry Date: 2023-01-19T05:00:00Z
+   Registrar: MarkMonitor Inc.
+   Registrar IANA ID: 292
+   Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
+   Registrar Abuse Contact Phone: +1.2083895740
+   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+   Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+   Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+   Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+   Name Server: NS1.YAHOO.COM
+   Name Server: NS2.YAHOO.COM
+   Name Server: NS3.YAHOO.COM
+   Name Server: NS4.YAHOO.COM
+   Name Server: NS5.YAHOO.COM
+   DNSSEC: unsigned
+
+5. Domain Name: SHOPIFY.COM
+   Registry Domain ID: 145873763_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.markmonitor.com
+   Registrar URL: http://www.markmonitor.com
+   Updated Date: 2021-03-02T23:10:16Z
+   Creation Date: 2005-03-11T05:18:03Z
+   Registry Expiry Date: 2023-03-11T05:18:03Z
+   Registrar: MarkMonitor Inc.
+   Registrar IANA ID: 292
+   Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
+   Registrar Abuse Contact Phone: +1.2083895740
+   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+   Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+   Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+   Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+   Name Server: DNS1.P06.NSONE.NET
+   Name Server: DNS2.P06.NSONE.NET
+   Name Server: DNS3.P06.NSONE.NET
+   Name Server: DNS4.P06.NSONE.NET
+   Name Server: NS1.DNSIMPLE.COM
+   Name Server: NS2.DNSIMPLE.COM
+   Name Server: NS3.DNSIMPLE.COM
+   Name Server: NS4.DNSIMPLE.COM
+   DNSSEC: unsigned

@@ -1,0 +1,24 @@
+1. Domain Name: youtube.com
+
+   IP Address: 142.250.65.238
+   Geolocation: US (United States), CA, California, 94043 Mountain View
+
+2. Domain Name: apple.com
+
+   IP Address: 17.253.144.10
+   Geolocation: US (United States), CA, California, 95014 Cupertino 
+
+3. Domain Name: facebook.com
+
+   IP Address: 157.240.241.35
+   Geolocation: US (United States), CA, California, 94025 Menlo Park
+
+4. Domain Name: amazon.com
+  
+   IP Address: 205.251.242.103
+   Geolocation: US (United States), VA, Virginia, 20149 Ashburn
+
+5. Domain Name: dynadot.com
+  
+   IP Address: 104.21.33.233
+   Geolocation: US (United States), N/A, N/A, N/A N/A

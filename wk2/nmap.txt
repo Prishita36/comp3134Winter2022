@@ -1,0 +1,41 @@
+1. nmap 17.253.144.10
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-01-21 04:38 UTC
+Nmap scan report for apple.com.uy (17.253.144.10)
+Host is up (0.012s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.61 seconds
+
+2.  nmap -p 80 142.251.35.174
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-01-21 04:38 UTC
+Nmap scan report for lga25s78-in-f14.1e100.net (142.251.35.174)
+Host is up (0.016s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.08 seconds
+
+3.  nmap -p 49152 65535 142.251.35.174
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-01-21 04:38 UTC
+Nmap scan report for lga25s78-in-f14.1e100.net (142.251.35.174)
+Host is up (0.016s latency).
+
+PORT      STATE    SERVICE
+49152/tcp filtered unknown
+
+Nmap done: 2 IP addresses (1 host up) scanned in 1.45 seconds
+
+4. nmap -F 17.253.144.10
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-01-21 04:38 UTC
+Nmap scan report for apple.com.py (17.253.144.10)
+Host is up (0.013s latency).
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.78 seconds 
