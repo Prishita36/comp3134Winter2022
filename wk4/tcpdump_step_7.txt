@@ -1,0 +1,31 @@
+tcpdump -r 0001.pcap
+
+tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+21:22:02.896263 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpec09435f2355f-cmc09435f2355d.cpe.net.cable.rogers.com.57921: Flags [P.], seq 1337211354:1337211398, ack 2988421012, win 501, options [nop,nop,TS val 2657541061 ecr 1670829613], length 44
+21:22:02.896340 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpec09435f2355f-cmc09435f2355d.cpe.net.cable.rogers.com.57921: Flags [P.], seq 44:152, ack 1, win 501, options [nop,nop,TS val 2657541061 ecr 1670829613], length 108
+21:22:02.896387 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpec09435f2355f-cmc09435f2355d.cpe.net.cable.rogers.com.57921: Flags [P.], seq 152:188, ack 1, win 501, options [nop,nop,TS val 2657541061 ecr 1670829613], length 36
+21:22:02.907121 IP cpec09435f2355f-cmc09435f2355d.cpe.net.cable.rogers.com.57921 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 0, win 4377, options [nop,nop,TS val 1670829637 ecr 2657541056], length 0
+21:22:02.907121 IP cpec09435f2355f-cmc09435f2355d.cpe.net.cable.rogers.com.57921 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 152, win 4376, options [nop,nop,TS val 1670829638 ecr 2657541061], length 0
+21:22:02.914162 IP cpec09435f2355f-cmc09435f2355d.cpe.net.cable.rogers.com.57921 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 188, win 4377, options [nop,nop,TS val 1670829638 ecr 2657541061], length 0
+21:22:03.185395 IP static.18.205.40.188.clients.your-server.de.57656 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.55002: Flags [S], seq 1627090387, win 64240, options [mss 1460,sackOK,TS val 721936914 ecr 0,nop,wscale 7], length 0
+21:22:04.202464 IP static.18.205.40.188.clients.your-server.de.57656 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.55002: Flags [S], seq 1627090387, win 64240, options [mss 1460,sackOK,TS val 721937932 ecr 0,nop,wscale 7], length 0
+21:22:06.218487 IP static.18.205.40.188.clients.your-server.de.57656 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.55002: Flags [S], seq 1627090387, win 64240, options [mss 1460,sackOK,TS val 721939948 ecr 0,nop,wscale 7], length 0
+21:22:07.115154 IP static.88.198.58.152.clients.your-server.de.34934 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.55002: Flags [S], seq 3436371598, win 64240, options [mss 1460,sackOK,TS val 1046548607 ecr 0,nop,wscale 7], length 0
+21:22:07.921779 IP static.196.194.21.65.clients.your-server.de.52548 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.55002: Flags [S], seq 1534020567, win 64240, options [mss 1460,sackOK,TS val 1058400551 ecr 0,nop,wscale 7], length 0
+21:22:08.121647 IP static.88.198.58.152.clients.your-server.de.34934 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.55002: Flags [S], seq 3436371598, win 64240, options [mss 1460,sackOK,TS val 1046549614 ecr 0,nop,wscale 7], length 0
+21:22:08.935555 IP static.196.194.21.65.clients.your-server.de.52548 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.55002: Flags [S], seq 1534020567, win 64240, options [mss 1460,sackOK,TS val 1058401566 ecr 0,nop,wscale 7], length 0
+21:22:10.133690 IP static.88.198.58.152.clients.your-server.de.34934 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.55002: Flags [S], seq 3436371598, win 64240, options [mss 1460,sackOK,TS val 1046551626 ecr 0,nop,wscale 7], length 0
+21:22:10.951537 IP static.196.194.21.65.clients.your-server.de.52548 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.55002: Flags [S], seq 1534020567, win 64240, options [mss 1460,sackOK,TS val 1058403582 ecr 0,nop,wscale 7], length 0
+21:22:11.257034 IP 144-55-15-51.instances.scw.cloud.37950 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.55002: Flags [S], seq 2829945772, win 64240, options [mss 1460,sackOK,TS val 4030446070 ecr 0,nop,wscale 7], length 0
+21:22:12.277701 IP 144-55-15-51.instances.scw.cloud.37950 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.55002: Flags [S], seq 2829945772, win 64240, options [mss 1460,sackOK,TS val 4030447091 ecr 0,nop,wscale 7], length 0
+21:22:14.293803 IP 144-55-15-51.instances.scw.cloud.37950 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.55002: Flags [S], seq 2829945772, win 64240, options [mss 1460,sackOK,TS val 4030449107 ecr 0,nop,wscale 7], length 0
+21:22:16.327748 IP static.102.101.108.65.clients.your-server.de.39078 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.55002: Flags [S], seq 1236691938, win 64240, options [mss 1460,sackOK,TS val 1592674200 ecr 0,nop,wscale 7], length 0
+21:22:17.361412 IP static.102.101.108.65.clients.your-server.de.39078 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.55002: Flags [S], seq 1236691938, win 64240, options [mss 1460,sackOK,TS val 1592675234 ecr 0,nop,wscale 7], length 0
+21:22:17.430188 IP cpec09435f2355f-cmc09435f2355d.cpe.net.cable.rogers.com.57921 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:37, ack 188, win 4378, options [nop,nop,TS val 1670844158 ecr 2657541061], length 36
+21:22:17.430388 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpec09435f2355f-cmc09435f2355d.cpe.net.cable.rogers.com.57921: Flags [P.], seq 188:224, ack 37, win 501, options [nop,nop,TS val 2657555595 ecr 1670844158], length 36
+21:22:17.650614 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpec09435f2355f-cmc09435f2355d.cpe.net.cable.rogers.com.57921: Flags [P.], seq 188:224, ack 37, win 501, options [nop,nop,TS val 2657555816 ecr 1670844158], length 36
+21:22:17.660820 IP cpec09435f2355f-cmc09435f2355d.cpe.net.cable.rogers.com.57921 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 224, win 4377, options [nop,nop,TS val 1670844176 ecr 2657555595], length 0
+21:22:17.660820 IP cpec09435f2355f-cmc09435f2355d.cpe.net.cable.rogers.com.57921 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 224, win 4378, options [nop,nop,TS val 1670844392 ecr 2657555816,nop,nop,sack 1 {188:224}], length 0
+^C21:22:19.147761 IP static.121.126.201.195.clients.your-server.de.60544 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.55002: Flags [S], seq 2068788962, win 29200, options [mss 1460,sackOK,TS val 2846703812 ecr 0,nop,wscale 7], length 0
+

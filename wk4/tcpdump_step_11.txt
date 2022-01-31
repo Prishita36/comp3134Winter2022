@@ -1,0 +1,9 @@
+ tcpdump -i eth0 src 192.168.0.2
+
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
+10:49:15.746474 IP 192.168.0.2.ssh > 192.168.0.1.nokia-ann-ch1: Flags [P.], seq 3364578842:3364579038, ack 4193668445, win 20904, length 196
+10:49:15.748554 IP 192.168.0.2.56200 > b.resolvers.Level3.net.domain: 11289+ PTR? 1.0.168.192.in-addr.arpa. (42)
+10:49:15.912165 IP 192.168.0.2.56234 > b.resolvers.Level3.net.domain: 53106+ PTR? 2.0.168.192.in-addr.arpa. (42)
+10:49:16.074720 IP 192.168.0.2.33961 > b.resolvers.Level3.net.domain: 38447+ PTR? 2.2.2.4.in-addr.arpa. (38)
+

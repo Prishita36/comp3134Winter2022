@@ -1,0 +1,21 @@
+tcpdump -XX -i eth0
+
+tcpdump -XX -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+21:18:15.358616 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpec09435f2355f-cmc09435f2355d.cpe.net.cable.rogers.com.57921: Flags [P.], seq 1336300502:1336300610, ack 2988418276, win 501, options [nop,nop,TS val 2657313524 ecr 1670602080], length 108
+	0x0000:  fe00 0000 0101 8aeb 2291 367a 0800 4510  ........".6z..E.
+	0x0010:  00a0 c03d 4000 4006 b6d4 a763 b5e7 63fc  ...=@.@....c..c.
+	0x0020:  01ef 0016 e241 4fa6 53d6 b21f a4e4 8018  .....AO.S.......
+	0x0030:  01f5 c3c8 0000 0101 080a 9e63 62f4 6393  ...........cb.c.
+	0x0040:  5d60 7ae3 4844 b804 0326 ef8e 886b f614  ]`z.HD...&...k..
+	0x0050:  8019 a28d fca8 5bcf 6108 3e82 535c f804  ......[.a.>.S\..
+	0x0060:  283c 602b 69a8 9ce0 09c3 8677 749d 7953  (<`+i......wt.yS
+	0x0070:  f9aa aa2c 4167 0a15 eb7f f619 e8c0 0160  ...,Ag.........`
+	0x0080:  2b3e c091 4ac2 c27a e396 0756 250d 760a  +>..J..z...V%.v.
+	0x0090:  e863 ff26 5a73 f778 dbf8 6dc1 fd29 40eb  .c.&Zs.x..m..)@.
+	0x00a0:  4231 3622 6af9 f078 91c2 2a04 ec0e       B16"j..x..*...
+
+161 packets captured
+1954 packets received by filter
+1762 packets dropped by kernel

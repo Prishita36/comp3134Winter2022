@@ -1,0 +1,7 @@
+tcpdump -i eth0 1st 50.116.66.139
+
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
+10:55:01.798591 IP 192.168.0.2.59896 > 50.116.66.139.http: Flags [.], ack 2480401451, win 318, options [nop,nop,TS val 7955710 ecr 804759402], length 0
+10:55:05.527476 IP 192.168.0.2.59894 > 50.116.66.139.http: Flags [F.], seq 2521556029, ack 2164168606, win 245, options [nop,nop,TS val 7959439 ecr 804759284], length 0
+10:55:05.626027 IP 192.168.0.2.59894 > 50.116.66.139.http: Flags [.], ack 2, win 245, options [nop,nop,TS val 7959537 ecr 804759787], length 0

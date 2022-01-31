@@ -1,0 +1,14 @@
+tcpdump -n -i eth0
+
+
+tcpdump -n -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+21:23:47.465761 IP 167.99.181.231.22 > 99.252.1.239.57921: Flags [P.], seq 1337219962:1337220070, ack 2988421332, win 501, options [nop,nop,TS val 2657645631 ecr 1670934185], length 108
+21:23:47.465913 IP 167.99.181.231.22 > 99.252.1.239.57921: Flags [P.], seq 108:144, ack 1, win 501, options [nop,nop,TS val 2657645631 ecr 1670934185], length 36
+21:23:47.465980 IP 167.99.181.231.22 > 99.252.1.239.57921: Flags [P.], seq 144:252, ack 1, win 501, options [nop,nop,TS val 2657645631 ecr 1670934185], length 108
+21:23:47.466019 IP 167.99.181.231.22 > 99.252.1.239.57921: Flags [P.], seq 252:288, ack 1, win 501, options [nop,nop,TS val 2657645631 ecr 1670934185], length 36
+21:23:47.466275 IP 167.99.181.231.22 > 99.252.1.239.57921: Flags [P.], seq 288:508, ack 1, win 501, options [nop,nop,TS val 2657645631 ecr 1670934185], length 220
+21:23:47.466323 IP 167.99.181.231.22 > 99.252.1.239.57921: Flags [P.], seq 508:544, ack 1, win 501, options [nop,nop,TS val 2657645631 ecr 1670934185], length 36
+21:23:47.466386 IP 167.99.181.231.22 > 99.252.1.239.57921: Flags [P.], seq 544:740, ack 1, win 501, options [nop,nop,TS val 2657645631 ecr 1670934185], length 196
+

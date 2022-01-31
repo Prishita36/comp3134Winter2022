@@ -1,0 +1,18 @@
+tcpdump -A -i eth0
+
+tcpdump -A -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+21:14:40.876280 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpec09435f2355f-cmc09435f2355d.cpe.net.cable.rogers.com.57921: Flags [P.], seq 1335228282:1335228390, ack 2988416984, win 501, options [nop,nop,TS val 2657099041 ecr 1670387604], length 108
+E....{@.@....c..c......AO..z...............
+.`.!c....(k...N..a..u.1_7....%.r.ju.l)8.......z.X..>s..@....5De....|9.-$....#.....G......2.)[..._.L'A.Js.,.TE...L.vL
+21:14:40.876343 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpec09435f2355f-cmc09435f2355d.cpe.net.cable.rogers.com.57921: Flags [P.], seq 108:144, ack 1, win 501, options [nop,nop,TS val 2657099041 ecr 1670387604], length 36
+E..X.|@.@....c..c......AO..................
+.`.!c....I...9.h...h.*t.p..1...;. ...].i\wh+
+21:14:40.876394 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpec09435f2355f-cmc09435f2355d.cpe.net.cable.rogers.com.57921: Flags [P.], seq 144:252, ack 1, win 501, options [nop,nop,TS val 2657099041 ecr 1670387604], length 108
+E....}@.@....c..c......AO..
+...............
+
+1061 packets captured
+2565 packets received by filter
+1473 packets dropped by kernel

@@ -1,0 +1,11 @@
+tcpdump -i eth0 port 22
+
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
+10:37:49.056927 IP 192.168.0.2.ssh > 192.168.0.1.nokia-ann-ch1: Flags [P.], seq 3364204694:3364204890, ack 4193655445, win 20904, length 196
+10:37:49.196436 IP 192.168.0.2.ssh > 192.168.0.1.nokia-ann-ch1: Flags [P.], seq 4294967244:196, ack 1, win 20904, length 248
+10:37:49.196615 IP 192.168.0.1.nokia-ann-ch1 > 192.168.0.2.ssh: Flags [.], ack 196, win 64491, length 0
+10:37:49.379298 IP 192.168.0.2.ssh > 192.168.0.1.nokia-ann-ch1: Flags [P.], seq 196:616, ack 1, win 20904, length 420
+10:37:49.381080 IP 192.168.0.2.ssh > 192.168.0.1.nokia-ann-ch1: Flags [P.], seq 616:780, ack 1, win 20904, length 164
+10:37:49.381322 IP 192.168.0.1.nokia-ann-ch1 > 192.168.0.2.ssh: Flags [.], ack 780, win 65535, length 0
+

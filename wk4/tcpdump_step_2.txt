@@ -1,0 +1,13 @@
+tcpdump -c 5 -i eth0
+
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+21:06:49.630357 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpec09435f2355f-cmc09435f2355d.cpe.net.cable.rogers.com.57921: Flags [P.], seq 1335225782:1335225890, ack 2988416156, win 501, options [nop,nop,TS val 2656627795 ecr 1669916357], length 108
+21:06:49.630459 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpec09435f2355f-cmc09435f2355d.cpe.net.cable.rogers.com.57921: Flags [P.], seq 108:144, ack 1, win 501, options [nop,nop,TS val 2656627796 ecr 1669916357], length 36
+21:06:49.630539 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpec09435f2355f-cmc09435f2355d.cpe.net.cable.rogers.com.57921: Flags [P.], seq 144:252, ack 1, win 501, options [nop,nop,TS val 2656627796 ecr 1669916357], length 108
+21:06:49.630645 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpec09435f2355f-cmc09435f2355d.cpe.net.cable.rogers.com.57921: Flags [P.], seq 252:288, ack 1, win 501, options [nop,nop,TS val 2656627796 ecr 1669916357], length 36
+21:06:49.632124 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.42460 > 67.207.67.2.domain: 1559+ [1au] PTR? 239.1.252.99.in-addr.arpa. (54)
+5 packets captured
+35 packets received by filter
+0 packets dropped by kernel
+
