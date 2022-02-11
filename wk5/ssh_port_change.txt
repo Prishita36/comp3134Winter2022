@@ -1,0 +1,3 @@
+sudo ufw allow 2222/tcp
+service sshd restart
+ssh root@167.99.181.231 -p 2222
