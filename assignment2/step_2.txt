@@ -1,0 +1,32 @@
+COMMAND USED: tcpdump -c 10 -i eth0 tcp port 80
+
+---------------------------------------
+OUTPUT
+---------------------------------------
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -c 10 -i eth0 tcp port 80
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+23:55:01.966729 IP 172-245-45-219-host.colocrossing.com.53506 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.http: Flags [SEW], seq 77650440, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+23:55:01.966809 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.http > 172-245-45-219-host.colocrossing.com.53506: Flags [S.E], seq 650073042, ack 77650441, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+23:55:02.030503 IP 172-245-45-219-host.colocrossing.com.53506 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.http: Flags [.], ack 1, win 6147, length 0
+23:55:02.035335 IP 172-245-45-219-host.colocrossing.com.53506 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.http: Flags [P.], seq 1:233, ack 1, win 6147, length 232: HTTP: GET /.env HTTP/1.1
+23:55:02.035414 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.http > 172-245-45-219-host.colocrossing.com.53506: Flags [.], ack 233, win 501, length 0
+23:55:02.035809 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.http > 172-245-45-219-host.colocrossing.com.53506: Flags [P.], seq 1:494, ack 233, win 501, length 493: HTTP: HTTP/1.1 404 Not Found
+23:55:02.222769 IP 172-245-45-219-host.colocrossing.com.53506 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.http: Flags [.], ack 494, win 6146, length 0
+23:55:02.362035 IP 172-245-45-219-host.colocrossing.com.53506 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.http: Flags [F.], seq 233, ack 494, win 6146, length 0
+23:55:02.362379 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.http > 172-245-45-219-host.colocrossing.com.53506: Flags [F.], seq 494, ack 234, win 501, length 0
+23:55:02.426243 IP 172-245-45-219-host.colocrossing.com.53506 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.http: Flags [.], ack 495, win 6146, length 0
+10 packets captured
+11 packets received by filter
+0 packets dropped by kernel
+
+-------------------------------------------------------
+INFORMATION RECIEVED
+-------------------------------------------------------
+
+Source Host : 192.168.1.162
+Source Port : 57916 
+Destination Host : 167.99.181.231
+Destination Port : 80
+

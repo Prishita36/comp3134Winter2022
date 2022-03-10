@@ -1,0 +1,30 @@
+COMMAND USED: tcpdump -c 10 -i eth0 udp
+
+---------------------------------------
+OUTPUT
+---------------------------------------
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -c 10 -i eth0 udp
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+23:24:32.588717 IP 45-137-23-135.hosted-by-rootlayer.net.48464 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ntp: NTPv2, Reserved, length 8
+23:24:32.589913 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.40771 > 67.207.67.3.domain: 29371+ [1au] PTR? 231.181.99.167.in-addr.arpa. (56)
+23:24:32.589982 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.54884 > 67.207.67.3.domain: 39846+ [1au] PTR? 231.181.99.167.in-addr.arpa. (56)
+23:24:32.590037 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.43162 > 67.207.67.3.domain: 44118+ [1au] PTR? 231.181.99.167.in-addr.arpa. (56)
+23:24:32.590853 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.40771: 29371 NXDomain 0/1/1 (123)
+23:24:32.590913 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.54884: 39846 NXDomain 0/1/1 (123)
+23:24:32.590944 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.43162: 44118 NXDomain 0/1/1 (123)
+23:24:32.591020 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.40771 > 67.207.67.3.domain: 29371+ PTR? 231.181.99.167.in-addr.arpa. (45)
+23:24:32.591088 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.54884 > 67.207.67.3.domain: 39846+ PTR? 231.181.99.167.in-addr.arpa. (45)
+23:24:32.591135 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.43162 > 67.207.67.3.domain: 44118+ PTR? 231.181.99.167.in-addr.arpa. (45)
+10 packets captured
+30 packets received by filter
+0 packets dropped by kernel
+
+---------------------------------------------
+INFORMATION REQUESTED FOR EACH PACKET:
+---------------------------------------------
+
+Source Host : 172.20.10.3 
+Source Port : 56282
+Destination Host : 167.99.181.231
+Destination Port : 433
