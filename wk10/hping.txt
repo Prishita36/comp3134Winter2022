@@ -1,0 +1,4 @@
+1. hping3 -c 10000 --rand-source --flood www.hping3testsite.com
+2. hping3 www.hping3testsite.com -c 9000 --faster --udp --spoof 
+192.168.29.1
+3. hping3 www.hping3testsite.com -c 11000 -i u750 --faster --icmp -d 1024 

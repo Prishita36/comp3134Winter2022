@@ -1,0 +1,1 @@
+We are mitigating the risk by converting HTML comments to PHP comments

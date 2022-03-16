@@ -1,0 +1,11 @@
+Question: What you see on the browser (the issue)?
+Answer: Array
+(
+    [0] => .
+    [1] => ..
+    [2] => html
+)
+
+Question: What sensitive information is given by this page
+Answer: It displays all files and folders in one directory back. Here ../ 
+is HTML encoded

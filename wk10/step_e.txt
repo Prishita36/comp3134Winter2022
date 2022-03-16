@@ -1,0 +1,7 @@
+I used the basename and realpath function to mitigate the risk of viewing 
+folders and files before HTML directory
+
+I used the file_exists function to check whether files exists or not
+
+I checked if query parameters has dot, if yes, then throws an 
+error/message.
