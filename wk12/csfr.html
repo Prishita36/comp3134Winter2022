@@ -1,0 +1,18 @@
+<html>
+<head>
+  <title>csfr</title>
+</head>
+<body>
+  <form name="loginForm">
+     <input type="hidden" name="username" value="host">
+     <input type="hidden" name="password" value="pass">
+  </form>
+  <script>
+      window.onload = function (){
+          document.loginForm.action = "/csfr.php";
+          document.loginForm.submit();
+      }
+    
+  </script>
+</body>
+</html>
