@@ -1,0 +1,15 @@
+1) Navigate to the form and type a valid English word. Write your 
+observations.
+It gives the correct output with meaning and other features of the word
+
+2) Navigate to the URL and type an invalid English word after the `/browse/` section of the URL. Write your observations
+No results found
+
+3) Navigate to the form and type the following text:<script>alert(%27hello%27)</script> Write your observations.
+It does not show any results, but showed some articles. It shows Results for <script>alert('hello')</script>:
+It blocked the execution by HTML encoding
+
+4) Navigate to the URL and type the following text:<script>alert(%27hello%27)</script> after the `term=` section of the URL. 
+Write your observations
+It does not show any results, but showed some articles. It shows Results for <script>alert('hello')</script>:
+It blocked the execution by HTML encoding
