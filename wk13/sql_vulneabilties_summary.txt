@@ -1,0 +1,21 @@
+1.
+The result is given as expected because the database get the query and 
+there is a row with first name has matched the query search.
+
+2.
+The query will turn into 
+SELECT * FROM Users WHERE firstname='Ben'-- '
+In this scenario, the attacker is using SQL comment syntax. The remaining 
+code after the double-dash (--) sequence will not run. Meaning an SQL 
+would be:
+		
+SELECT * FROM Users WHERE firstname='Ben';
+		
+It will then return user data that was entered in the password field. This 
+move could allow the login screen to be bypassed.
+
+3.
+The query will turn into
+SELECT * FROM Users WHERE username='Ben' OR 1=1;
+The query returns a non-empty dataset for any potential access with the 
+entire "Users" table database.
